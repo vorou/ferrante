@@ -1,0 +1,47 @@
+.container {
+  width: 1000px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Times New Roman", serif;
+  margin: 0;
+}
+
+h2 {
+  margin: 0 0 0 0;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.top-row {
+  margin: 10px 0 0 0;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.contacts {
+  margin: 15px 0 0 0;
+}
+
+.contact-icon {
+  position: absolute;
+  top: 4px;
+  left: -20px;
+}
+
+.contact-block {
+  position: relative;
+  margin: 0 0 5px 0;
+}
+
+.phone {
+  font-size: 17px;
+}
