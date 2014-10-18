@@ -3,7 +3,7 @@
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 140px;
   font-family: "Times New Roman", serif;
   margin: 0;
 }
@@ -11,7 +11,7 @@ h1 {
 h2 {
   margin: 0 0 0 0;
   color: rgba(0, 0, 0, 0.2);
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 3px;
 }
 
@@ -32,7 +32,8 @@ a:hover {
 }
 
 .contacts {
-  margin: 17px 0 0 0;
+  font-size: 17px;
+  margin: 27px 0 0 0;
 }
 
 .address {
@@ -42,8 +43,8 @@ a:hover {
 
 .contact-icon {
   position: absolute;
-  top: 4px;
-  left: -20px;
+  top: 7px;
+  left: -25px;
 }
 
 .contact-block {
@@ -52,7 +53,7 @@ a:hover {
 }
 
 .phone {
-  font-size: 17px;
+  font-size: 27px;
 }
 
 .brands {
