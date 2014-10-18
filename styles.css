@@ -57,26 +57,22 @@ a:hover {
 }
 
 .brands {
-  margin: 30px 0 0 0;
-  font-size: 20px;
-  color: #c5c5c5;
+  margin: 55px 0;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
+}
+
+.brands .row {
+  margin: 25px 0 0 0;
 }
 
 .brands > .row > div {
   text-align: center;
 }
 
-.brands > .row > div:nth-child(1) {
-  text-align: left;
-}
-
-.brands > .row > div:nth-last-child(1) {
-  text-align: right;
-}
-
 main {
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 /* sticky footer */
