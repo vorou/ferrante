@@ -1,0 +1,103 @@
+.container {
+  width: 1000px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Times New Roman", serif;
+  margin: 0;
+}
+
+h2 {
+  margin: 0 0 0 0;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+header {
+  margin: 10px 0 0 0;
+}
+
+header a {
+  color: black;
+}
+
+footer a {
+  color: #9D9D9D;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.contacts {
+  margin: 17px 0 0 0;
+}
+
+.address {
+  float: left;
+  clear: left;
+}
+
+.contact-icon {
+  position: absolute;
+  top: 4px;
+  left: -20px;
+}
+
+.contact-block {
+  position: relative;
+  margin: 0 0 5px 0;
+}
+
+.phone {
+  font-size: 17px;
+}
+
+.brands {
+  margin: 30px 0 0 0;
+  font-size: 20px;
+  color: #c5c5c5;
+  font-weight: bold;
+}
+
+.brands > .row > div {
+  text-align: center;
+}
+
+.brands > .row > div:nth-child(1) {
+  text-align: left;
+}
+
+.brands > .row > div:nth-last-child(1) {
+  text-align: right;
+}
+
+main {
+  margin: 20px 0 0 0;
+}
+
+/* sticky footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.organization {
+  color: #9d9d9d;
+  float: right;
+  margin: 20px 0;
+}
