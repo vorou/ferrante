@@ -3,16 +3,18 @@
 }
 
 h1 {
-  font-size: 140px;
+  font-size: 90px;
   font-family: "Times New Roman", serif;
   margin: 0;
 }
 
 h2 {
+  font-family: "Arial", sans-serif;
   margin: 0 0 0 0;
   color: rgba(0, 0, 0, 0.2);
-  font-size: 30px;
-  letter-spacing: 3px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 header {
