@@ -1,18 +1,22 @@
-.container {
-  width: 1000px;
+@media all and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+  }
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 90px;
   font-family: "Times New Roman", serif;
   margin: 0;
 }
 
 h2 {
+  font-family: "Arial", sans-serif;
   margin: 0 0 0 0;
   color: rgba(0, 0, 0, 0.2);
   font-size: 20px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 header {
@@ -32,18 +36,19 @@ a:hover {
 }
 
 .contacts {
-  margin: 17px 0 0 0;
+  font-size: 14px;
+  margin: 27px 0 0 0;
+  padding: 0 0 0 25px;
 }
 
 .address {
-  float: left;
-  clear: left;
+  margin: 0;
 }
 
 .contact-icon {
   position: absolute;
-  top: 4px;
-  left: -20px;
+  top: 2px;
+  left: -25px;
 }
 
 .contact-block {
@@ -51,31 +56,23 @@ a:hover {
   margin: 0 0 5px 0;
 }
 
-.phone {
-  font-size: 17px;
+.brands {
+  margin: 55px 0;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
 }
 
-.brands {
-  margin: 30px 0 0 0;
-  font-size: 20px;
-  color: #c5c5c5;
-  font-weight: bold;
+.brands .row {
+  margin: 25px 0 0 0;
 }
 
 .brands > .row > div {
   text-align: center;
 }
 
-.brands > .row > div:nth-child(1) {
-  text-align: left;
-}
-
-.brands > .row > div:nth-last-child(1) {
-  text-align: right;
-}
-
 main {
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 /* sticky footer */
